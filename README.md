@@ -7,41 +7,46 @@
   ![license-shield](https://shields.io/github/license/daniels-hc/dsmeta?style=flat&color=5965E0)
   ![version-shield](https://img.shields.io/static/v1?label=version&message=1&color=4CD62B)
 
-  **The best way to be productive and healthy. Both at the same time.**
+  **É um projetinho de exibição de relátorio de vendas que inclui o envio de mensagem SMS.**
 
 </div>
 
-# 📚 About
-Moveit is a pomodoro based app that help you to stay healthy during working time being totally productive.
+<h2> 📚 About</h2>
 
-With this app, you are able to work between "25 minutes" periods, and the gain experience and levels, like a game.
+O DSMeta se trata da exibição de um relátorio de vendas com filtragem por intevalo de datas.
 
-**This project can offers productivity, health and fun, all at the same time! 😋**
+Nele inclui uma ferramenta de envio de mensagem SMS por linha de vendas. 
 
-## 🛠 Build with
+Este projeto é composto de backend e frontend integrados por uma API disponibilizada pelo backend.
 
-- [x] [React.js][reactjs]
-- [x] [Next.js][nextjs]
+<h2> 🛠 Tecnologias </h2>
 
-## 📑 Features
+- ☕ Java
+- 🍃 Spring
+- 💾 Banco de dados H2
+- ⚛️ ReactJS
+- 🆙 TypeScript
 
-- [x] Countdown for 25 minutes sessions (like pomodoro principles)
-- [x] Improve your levels based on your current experience
-- [x] Gain experience with each completed challenge
-- [x] Unlock a different challenge each time the countdown finishes
-- [x] Notification to alert about a new challenge
+<h2> 📑 Features </h2>
 
-# 💡 What I learned
+- Exibição de relátorio de vendas paginadas com determinados campos
+- Filtragem por intervalo de datas
+- Ferramenta de envio de mensagem SMS
+- O frontend pega as vendas paginadas dinâmicamente no banco de dados do banckend
+- Exibição gráfica de calendário nos campos de filtragem por data
 
-- [x] Use Context API from React.js
-- [x] Define and implement font-size focused on acessibility
-- [x] Concepts and use of Next.js framework
-- [x] Use Notification API at Browser
-- [x] Use Audio API at Browser
-- [x] Upload a Next.js app into the web
-- [x] Concepts related to SEO
+<h2> 💡 O que eu aprendi </h2>
 
-# 🔥 Getting started
+- [x] Conceitos do ReactJS
+- [x] Criar um projeto react com o yarn e vite
+- [x] Detalhes de implementação do typescript no react
+- [x] Banco de dados H2
+- [x] Ferramenta de envio de mensagem SMS com o Twilio
+- [x] Notificação no browser com o toastify
+- [x] Como estruturar um projeto react
+
+<h2> 🔥 Começando a usar </h2>
+
 **Node (NPM)**
 ```
 npm install
@@ -53,37 +58,37 @@ yarn
 yarn dev
 ```
 
-## ⚙ Prerequisites
-To run this project you must have [Node.js][nodejs] installed in your machine.
+<h2> ⚙ Pré-requisitos </h2>
 
-The [Yarn][yarnjs] package manager is optional. Based on the NPM, it is a bit different at some factors, improving some issues that NPM would have. But, if you desire, can use NPM without doubt, currently they are practically worth.
+Para executar este projeto você deve ter [Nodejs](https://nodejs.org/) instalado em sua máquina.
 
-# 🤟🏼 Contributing
-Contributions are what make the open source community such an amazing place to be learn, inspire, and create. Any contributions you make are greatly appreciated.
+O gerenciador de pacotes [Yarn](https://yarnpkg.com/) é opcional. Baseado no NPM, é um pouco diferente em alguns fatores, melhorando alguns problemas que o NPM teria. Mas pode optar por usar o NPM sem problemas.
+
+<h2> 🤝🏼 Contribuições </h2>
+
+Qualquer contribuição que fizerem será muito bem-vinda.
 
 1. 🍴 Fork the Project
-2. 👯 Clone this project (`git clone https://github.com/cristianprochnow/move-it.git`)
+2. 👯 Clone this project (`git clone https://github.com/Daniels-hc/dsmeta.git`)
 3. 🔀 Create your Feature Branch (`git checkout -b my-feature`)
 4. ✔️ Commit your Changes (`git commit -m 'feat: My new feature'`)
 5. 📌 Push to the Branch (`git push origin my-feature`)
 6. 🔁 Open a Pull Request
 
-# 📞 Contact
-[![LinkedIn][linkedin-shield]][linkedin-url]
+<h2> 📫 Contact </h2>
 
+ [![Linkedin Badge](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white&link=https://www.linkedin.com/in/daniel-silva-63ab81203/)](https://www.linkedin.com/in/daniel-silva-63ab81203/)&nbsp;
+  [![Gmail Badge](https://img.shields.io/badge/-daniels.dev7@gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white&link=daniels.dev7@gmail.com)](daniels.dev7@gmail.com)
+
+<!--
 # 📜 License
 This project is under **MIT License**. Check `LICENSE` for more details.
-
-[logo]: ./public/logo-full.svg
-[move-it-url]: https://move-it-now.vercel.app/
+-->
 
 
 [reactjs]: https://reactjs.org/
-[nextjs]: https://nextjs.org/
 [nodejs]: https://nodejs.org/
 [yarnjs]: https://yarnpkg.com/
-[linkedin-shield]: https://img.shields.io/badge/-Cristian_Prochnow-black.svg?e&logo=linkedin&colorB=0077b4
-[linkedin-url]: https://www.linkedin.com/in/cristianprochnow
-[demonstration]: ./.github/app.gif
-[version-2-repo-url]: https://github.com/cristianprochnow/move-it/tree/nextjs-plus
+[linkedin-shield]: https://img.shields.io/badge/-Daniel_Silva-black.svg?e&logo=linkedin&colorB=0077b4
+[linkedin-url]: https://www.linkedin.com/in/daniel-silva-63ab81203
 [version-1-shield]: https://img.shields.io/badge/-1.0-5965E0
