@@ -2,12 +2,14 @@
 
   <img src="./frontend/src/assets/img/logo.svg" alt="logodsmeta" />
   <h1><strong> DSMeta </strong></h1>
-
+  
   ![languages-shield](https://shields.io/github/languages/count/daniels-hc/dsmeta?style=flat&color=5965E0)
   ![license-shield](https://shields.io/github/license/daniels-hc/dsmeta?style=flat&color=5965E0)
   ![version-shield](https://img.shields.io/static/v1?label=version&message=1&color=4CD62B)
 
   **É um projetinho de exibição de relátorio de vendas que inclui o envio de mensagem SMS.**
+  
+  <img width="700" src="./github/Screenshot_dsmeta.png" alt="relatoriodsmeta" />
 
 </div>
 
